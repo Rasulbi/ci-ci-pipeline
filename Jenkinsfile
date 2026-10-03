@@ -1,6 +1,8 @@
 pipeline {
     agent any
-
+    environment{
+        Docker=""
+    }
     stages {
 
       
